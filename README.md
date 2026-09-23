@@ -1,5 +1,11 @@
 # TaskFlow
-### Gestión de tareas sencilla y eficiente para equipos
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Node.js](https://img.shields.io/badge/node.js-%3E%3D18.0-brightgreen)
+
+TaskFlow es una aplicación web moderna y ligera diseñada para la administración eficiente de tareas en equipos de desarrollo.
 
 ---
 
@@ -7,61 +13,62 @@
 
 - [Descripción](#descripción)
 - [Funcionalidades](#funcionalidades)
-- [Tecnologías](#tecnologías)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Capturas de pantalla](#capturas-de-pantalla)
+- [Arquitectura](#arquitectura)
+- [Estructura del proyecto](#estructura-del-proyecto)
 - [Contribuidores](#contribuidores)
+- [Licencia](#licencia)
 
 ---
 
 ## Descripción
 
-TaskFlow es una aplicación ligera y moderna diseñada para simplificar la administración y el seguimiento de tareas diarias en un equipo de trabajo.
+**TaskFlow** simplifica el seguimiento de proyectos permitiendo crear, asignar y monitorear el progreso de actividades en tiempo real con una interfaz intuitiva.
 
 ---
 
 ## Funcionalidades
 
-- **Creación de tareas:** Permite registrar y organizar pendientes.
-- **Asignación:** Vincula miembros del equipo a cada tarea.
-- **Estado:** Control de tareas completadas y pendientes.
-
-### Checklist de Funcionalidades
-- [x] Registrar tareas
-- [x] Editar tareas
-- [ ] Eliminar tareas
-- [ ] Asignar tareas a usuarios
+- **Gestión interactiva:** Registro, edición y eliminación de tareas.
+- **Asignación de miembros:** Vinculación directa de responsables.
+- **Estado de avances:**
+  - [x] Registrar tareas
+  - [x] Editar tareas
+  - [ ] Eliminar tareas
+  - [ ] Asignar tareas a usuarios
 
 ---
 
-## Tecnologías
+## Tecnologías utilizadas
 
-| Tecnología | Categoría | Descripción |
-| :--- | :--- | :--- |
-| **HTML / CSS** | Frontend | Estructura y diseño de la interfaz |
-| **JavaScript** | Lenguaje | Lógica de la aplicación |
-| **Node.js** | Backend | Entorno de ejecución para el servidor |
-| **Git / GitHub** | Control de Versiones | Gestión de código y colaboración |
+| Tecnología | Categoría | Versión | Uso Principal |
+| :--- | :--- | :--- | :--- |
+| **HTML5 / CSS3** | Frontend | Standard | Estructura y estilos de la interfaz |
+| **JavaScript** | Lenguaje | ES6+ | Lógica dinámica del cliente |
+| **Node.js** | Backend | v18+ | Entorno del servidor |
+| **Express** | Framework | v4.18 | API RESTful |
+| **Git / GitHub** | Control de Versiones | - | Control de fuentes y repositorio |
+
+---
+
+## Requisitos
+
+Antes de comenzar, asegúrate de cumplir con los siguientes prerrequisitos:
+
+* **Node.js** (v18.0.0 o superior)
+* **npm** (v9.0.0 o superior)
+* Navegador web moderno (*Chrome*, *Firefox*, *Edge*)
 
 ---
 
 ## Instalación
 
-1. Clonar el repositorio.
-2. Configurar la base de datos.
-3. Configurar las variables necesarias.
-4. Ejecutar la aplicación.
+Sigue estos pasos ordenados para desplegar el proyecto en tu entorno local:
 
----
-
-## Uso
-
-1. Abre el navegador web en `http://localhost:3000`.
-2. Crea una nueva tarea ingresando el título y la descripción.
-3. Marca las casillas de verificación a medida que completes las actividades.
-
----
-
-## Contribuidores
-
-- Luciana Velasquez ([@lucianavelasquez-svg](https://github.com/lucianavelasquez-svg))
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/lucianavelasquez-svg/lab-sem05.git](https://github.com/lucianavelasquez-svg/lab-sem05.git)
