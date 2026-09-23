@@ -1,39 +1,52 @@
-# Titulo Importante
-Me encuentro aprendiendo *Markdown* en las clases del profesor
-Luis Pallin..
-## Subtitulo 01
-Aqui verificamos como formatear diferentes **tipos de texto**.
-## Subtitulo 02
-Podremos comocer diferentes tipo de formatos de textos
-usando ~~Markdown~~.
+# TaskFlow
+### Gestión de tareas sencilla y eficiente para equipos
 
-### Creando Hiperv....
-[Google](https://www.google.com)
-[Tecsup](https://www.tecsup.edu.pe)
+---
 
-## Colocar Imágenes
-![Imagen Principal](img01.jpg)
+## Tabla de contenidos
 
-## Funciones
-- [X] Registrar Alumno
-- [X] Generar Matricula
-- [ ] Campo Vacio
-- [ ] Libre
+- [Descripción](#descripción)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologías](#tecnologías)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribuidores](#contribuidores)
 
-## Creando Tablas
-| Lenguaje de Programación | Creador |
-| ------------------------ | --------|
-| Java |James Cosling |
-| PHP  |Rasmus Lerdor |
-| Python  | Guido Van Rossum |
+---
 
-## Codigo
-```html
-<h1>Hola Mundo</h1>
-```
+## Descripción
 
-```css
-body{
-    background:"red";
-}
-```
+TaskFlow es una aplicación ligera y moderna diseñada para simplificar la administración y seguimiento de las tareas diarias en un equipo de trabajo.
+
+---
+
+## Funcionalidades
+
+- **Creación de tareas:** Permite registrar y organizar pendientes.
+- **Asignación:** Vincula miembros del equipo a cada tarea.
+- **Estado:** Control de tareas completadas y pendientes.
+
+### Checklist de Funcionalidades
+- [x] Registrar tareas
+- [x] Editar tareas
+- [ ] Eliminar tareas
+- [ ] Asignar tareas a usuarios
+
+---
+
+## Tecnologías
+
+| Tecnología | Categoría | Descripción |
+| :--- | :--- | :--- |
+| **HTML / CSS** | Frontend | Estructura y diseño de la interfaz |
+| **JavaScript** | Lenguaje | Lógica de la aplicación |
+| **Node.js** | Backend | Entorno de ejecución para el servidor |
+| **Git / GitHub** | Control de Versiones | Gestión de código y colaboración |
+
+---
+
+## Instalación
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/lucianavelasquez-svg/lab-sem05.git](https://github.com/lucianavelasquez-svg/lab-sem05.git)
