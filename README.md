@@ -16,7 +16,7 @@
 
 ## Descripción
 
-TaskFlow es una aplicación ligera y moderna diseñada para simplificar la administración y seguimiento de las tareas diarias en un equipo de trabajo.
+TaskFlow es una aplicación ligera y moderna diseñada para simplificar la administración y el seguimiento de tareas diarias en un equipo de trabajo.
 
 ---
 
@@ -47,6 +47,21 @@ TaskFlow es una aplicación ligera y moderna diseñada para simplificar la admin
 
 ## Instalación
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/lucianavelasquez-svg/lab-sem05.git](https://github.com/lucianavelasquez-svg/lab-sem05.git)
+1. Clonar el repositorio.
+2. Configurar la base de datos.
+3. Configurar las variables necesarias.
+4. Ejecutar la aplicación.
+
+---
+
+## Uso
+
+1. Abre el navegador web en `http://localhost:3000`.
+2. Crea una nueva tarea ingresando el título y la descripción.
+3. Marca las casillas de verificación a medida que completes las actividades.
+
+---
+
+## Contribuidores
+
+- Luciana Velasquez ([@lucianavelasquez-svg](https://github.com/lucianavelasquez-svg))
